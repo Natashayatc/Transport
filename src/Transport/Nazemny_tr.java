@@ -2,14 +2,11 @@ package Transport;
 
 public abstract class Nazemny_tr implements tr {
 	@Override
-	public void move() {	
+	public void move(){
+		System.out.println("’оз€ин, поехали!!!");
 	}
 	@Override
-	public void fill_up() {		
-	}
-	public static void main(String[] args){
-
-	}
+	public abstract void fill_up();
 }
 class Car extends Nazemny_tr {
 	public void move() {	

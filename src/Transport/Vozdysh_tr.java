@@ -2,14 +2,9 @@ package Transport;
 
 public abstract class Vozdysh_tr implements tr {
 	@Override
-	public void move() {	
-	}
+	public abstract void move();
 	@Override
-	public void fill_up() {		
-	}
-	public static void main(String[] args){
-		
-	}
+	public abstract void fill_up();
 	private String type;
  public static class Vertolet extends Vozdysh_tr { //вложенный класс
 	 public void move() {	

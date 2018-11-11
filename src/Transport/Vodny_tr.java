@@ -3,12 +3,11 @@ package Transport;
 public abstract class Vodny_tr implements tr{
 	@Override
 	public void fill_up() {
+		System.out.println("Кушать хочется и мне");
 	}
 	@Override
-	public void move() {
-	}
-	public static void main(String[] args){
-	}
+	public abstract void move();
+	
 }
 class sydno extends Vodny_tr{ // внутренний класс
 	private Corpus Karkas = new Corpus("Крутой","корпус");
